@@ -14,6 +14,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<DailyMovieRecommendations />} />
+          <Route path="/flickAdvise" element={<DailyMovieRecommendations />} />
           <Route path="/awards" element={<ComingSoon title="获奖电影" />} />
           <Route path="/adaptations" element={<ComingSoon title="真实改编" />} />
           <Route path="/books" element={<ComingSoon title="书单推荐" />} />
