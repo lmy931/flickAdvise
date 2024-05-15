@@ -1,0 +1,78 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/* 保持原有大屏幕样式不变 */
+.col-auto.d-none.d-lg-block {
+  display: block; /* 确保大屏幕上仍然显示图片 */
+}
+
+/* 移动端样式 */
+@media (max-width: 767px) {
+  .col-auto.d-none.d-lg-block {
+    display: block; /* 在小屏幕上显示图片 */
+    order: -1; /* 将图片放到文字的左边 */
+  }
+  .col.p-4 {
+    flex: 1; /* 让文字内容填满剩余空间 */
+  }
+}
+
+
+.custom-image-container {
+  display: block;  /* 确保在所有尺寸上都显示图片 */
+}
+
+@media (max-width: 767px) {
+  .custom-image-container {
+    order: -1;  /* 将图片放在文字的左边 */
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-image-container {
+    /* 如果需要在大屏幕上调整图片位置，可以在这里添加样式 */
+  }
+}
+
+@media (max-width: 767px) {
+  .text-body-secondary {
+    display: none; /* 在小屏幕尺寸下隐藏演员名单 */
+  }
+}
