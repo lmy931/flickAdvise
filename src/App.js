@@ -8,7 +8,7 @@ import ComingSoon from './components/ComingSoon'; // 新建的组件
 
 function App() {
   return (
-    <Router basename="/flickAdvise">
+    <Router>
       <div className="container">
         <Header />
         <Navigation />

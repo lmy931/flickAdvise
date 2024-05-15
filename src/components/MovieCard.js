@@ -16,7 +16,7 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true }
           </a> */}
         </div>
         <div className="col-auto custom-image-container">
-          <img className="bd-placeholder-img" width="auto" height="250" src={imageSrc} alt={title} />
+          <img className="bd-placeholder-img" width="auto" height="250" src={`${process.env.REACT_APP_BASE_URL}/${imageSrc}`} alt={title} />
         </div>
       </div>
     </div>
