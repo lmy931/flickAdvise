@@ -1,0 +1,7 @@
+/* 小屏幕设备的媒体查询 */
+@media (max-width: 576px) {
+  .custom-image-container img {
+    height: 150px; /* 在小屏幕上缩小图片高度 */
+    width: auto;  /* 保持宽度比例 */
+  }
+}
