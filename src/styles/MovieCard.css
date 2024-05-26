@@ -3,7 +3,7 @@
   padding: 1.0rem 1.5rem !important;
 }
 
-.watch-link{
+.m-watch-link{
   color: #007bff; /* Bootstrap的默认链接颜色，或者你选择的任何颜色 */
   text-decoration: none; /* 确保没有下划线 */
 }
@@ -31,7 +31,8 @@
     margin-bottom: 0rem !important;
     font-size: .9rem;
   }
-  .watch-link{
+  .m-watch-link{
     font-size: .9rem;
+    margin: .2rem 0rem!important;
   }
 }

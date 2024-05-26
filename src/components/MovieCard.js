@@ -14,7 +14,7 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true }
           <h3 className="mb-0 m-title-text">{title}</h3>
           <div className="mb-1 m-cast-text">{cast}</div>
           <p className="card-text mb-auto text-body-secondary">{description}</p>
-          <a href="#" className="watch-link">
+          <a href="#" className="m-watch-link">
             在线观看
           </a>
         </div>
