@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/MovieCard.css'; // 确保你已经正确地链接了 CSS 文件
+import '../styles/MovieCard.css';
 
 function MovieCard({ title, cast, type, description, imageSrc, featured = true }) {
   const cardClass = featured ? "col-md-6" : "";
@@ -13,11 +13,11 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true }
           <strong className="d-inline-block mb-2 text-primary-emphasis">{type}</strong>
           <h3 className="mb-0">{title}</h3>
           <div className="mb-1">{cast}</div>
-          <p className="card-text mb-auto  text-body-secondary">{description}</p>
-          {/* <a href="#" className="icon-link gap-1 icon-link-hover stretched-link">
-            Continue reading
+          <p className="card-text mb-auto text-body-secondary">{description}</p>
+          <a href="#" className="icon-link gap-1 icon-link-hover stretched-link">
+            在线观看
             <svg className="bi"><use xlinkHref="#chevron-right"></use></svg>
-          </a> */}
+          </a>
         </div>
       </div>
     </div>

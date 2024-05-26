@@ -1,7 +1,15 @@
+
+.col.p-4 {
+  padding: 1.0rem 1.5rem !important;
+}
+
 /* 小屏幕设备的媒体查询 */
 @media (max-width: 576px) {
   .custom-image-container img {
     height: 150px; /* 在小屏幕上缩小图片高度 */
     width: auto;  /* 保持宽度比例 */
+  }
+  .col.p-4 {
+    padding: 0.2rem 1rem !important;
   }
 }
