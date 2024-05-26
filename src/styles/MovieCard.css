@@ -3,6 +3,11 @@
   padding: 1.0rem 1.5rem !important;
 }
 
+.watch-link{
+  color: #007bff; /* Bootstrap的默认链接颜色，或者你选择的任何颜色 */
+  text-decoration: none; /* 确保没有下划线 */
+}
+
 /* 小屏幕设备的媒体查询 */
 @media (max-width: 576px) {
   .custom-image-container img {
@@ -19,7 +24,10 @@
     margin-bottom: auto !important;
   }
   .m-title-text{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: .2rem 0rem!important;
+  }
+  .m-type-text{
+    margin-bottom: 0rem !important;
   }
 }
