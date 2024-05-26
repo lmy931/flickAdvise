@@ -1,5 +1,5 @@
 
-.col.p-4 {
+.m-text-block {
   padding: 1.0rem 1.5rem !important;
 }
 
@@ -9,7 +9,17 @@
     height: 150px; /* 在小屏幕上缩小图片高度 */
     width: auto;  /* 保持宽度比例 */
   }
-  .col.p-4 {
-    padding: 0.2rem 1rem !important;
+  .m-text-block{
+    padding: .2rem 1rem !important;
+  }
+  .m-cast-text{
+    font-size: 0.8rem;
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+    margin-bottom: auto !important;
+  }
+  .m-title-text{
+    font-size: 1.2rem;
+    margin: .2rem 0rem!important;
   }
 }

@@ -9,10 +9,10 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true }
         <div className="col-auto custom-image-container">
           <img className="bd-placeholder-img" width="auto" height="250" src={`${process.env.REACT_APP_BASE_URL}/${imageSrc}`} alt={title} />
         </div>
-        <div className="col p-4 d-flex flex-column position-static">
+        <div className="col p-4 d-flex flex-column position-static m-text-block">
           <strong className="d-inline-block mb-2 text-primary-emphasis">{type}</strong>
-          <h3 className="mb-0">{title}</h3>
-          <div className="mb-1">{cast}</div>
+          <h3 className="mb-0 m-title-text">{title}</h3>
+          <div className="mb-1 m-cast-text">{cast}</div>
           <p className="card-text mb-auto text-body-secondary">{description}</p>
           <a href="#" className="icon-link gap-1 icon-link-hover stretched-link">
             在线观看
