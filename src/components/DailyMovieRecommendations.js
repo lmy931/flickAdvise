@@ -4,7 +4,7 @@ import MovieSection from './MovieSection';
 import GlobalHitsSection from './GlobalHitsSection';  // 引入新的 GlobalHitsSection 组件
 import HallOfFame from './HallOfFame';
 import { featuredMovies, weekendMovies, nightMovies, inspiringMovies, loveMovies, globalHitMovies } from '../data/movieData'; 
-import '../styles/blog.css';
+import '../styles/DailyMovieRecommendations.css';
 
 function DailyMovieRecommendations() {
   return (

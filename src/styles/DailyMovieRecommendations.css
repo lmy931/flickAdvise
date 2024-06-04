@@ -1,4 +1,3 @@
-/* stylelint-disable @stylistic/selector-list-comma-newline-after */
 
 .blog-header-logo {
   font-family: Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
@@ -62,12 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   .custom-image-container {
     order: -1;  /* 将图片放在文字的左边 */
-  }
-}
-
-@media (min-width: 768px) {
-  .custom-image-container {
-    /* 如果需要在大屏幕上调整图片位置，可以在这里添加样式 */
   }
 }
 
