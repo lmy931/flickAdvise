@@ -10,7 +10,7 @@ function DailyMovieRecommendations() {
   return (
     <React.Fragment>
       <Banner />
-      <MovieSection title="今日推荐_" posts={featuredMovies} featured={true} />
+      <MovieSection title="今日推荐" posts={featuredMovies} featured={true} />
       <div className="row g-5">
         <div className='col-md-8'>
           <MovieSection title="舒适周末" posts={weekendMovies} featured={false} />
@@ -18,7 +18,7 @@ function DailyMovieRecommendations() {
           <MovieSection title="爱情满屋" posts={loveMovies} featured={false} />
           <MovieSection title="激励人心" posts={inspiringMovies} featured={false} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 side-section">
           <div className="position-sticky" style={{ top: '2rem' }}>
             <div className="p-4 mb-3 bg-light rounded">
               <h4>每日推荐</h4>

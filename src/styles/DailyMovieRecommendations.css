@@ -51,6 +51,9 @@ h1, h2, h3, h4, h5, h6 {
   .col.p-4 {
     flex: 1; /* 让文字内容填满剩余空间 */
   }
+  .side-section {
+    margin-top: -.5rem;
+  }
 }
 
 
