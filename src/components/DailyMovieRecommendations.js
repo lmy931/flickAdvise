@@ -4,7 +4,7 @@ import MovieSection from './MovieSection';
 import GlobalHitsSection from './GlobalHitsSection';  // 引入新的 GlobalHitsSection 组件
 import HallOfFame from './HallOfFame';
 import { featuredMovies, weekendMovies, nightMovies, inspiringMovies, loveMovies, globalHitMovies } from '../data/movieData'; 
-import '../styles/blog.css';
+import '../styles/DailyMovieRecommendations.css';
 
 function DailyMovieRecommendations() {
   return (
@@ -18,7 +18,7 @@ function DailyMovieRecommendations() {
           <MovieSection title="爱情满屋" posts={loveMovies} featured={false} />
           <MovieSection title="激励人心" posts={inspiringMovies} featured={false} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 side-section">
           <div className="position-sticky" style={{ top: '2rem' }}>
             <div className="p-4 mb-3 bg-light rounded">
               <h4>每日推荐</h4>

@@ -4,7 +4,7 @@ import MovieCard from './MovieCard';
 function Section({ title, posts, featured }) {
   return (
     <div>
-      <h3 className="pb-4 mb-4 border-bottom">
+      <h3 className="mb-3 mt-3">
         {title}
       </h3>
       <div className="row mb-2">
@@ -17,6 +17,7 @@ function Section({ title, posts, featured }) {
             description={post.description}
             imageSrc={post.imageSrc}
             featured={featured}
+            externalUrl="https://example.com"
           />
         ))}
       </div>

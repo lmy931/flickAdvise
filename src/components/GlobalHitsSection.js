@@ -1,4 +1,3 @@
-// src/components/GlobalHitsSection.js
 import React from 'react';
 
 function GlobalHitsSection({ posts }) {
@@ -8,8 +7,8 @@ function GlobalHitsSection({ posts }) {
       <ul className="list-unstyled">
         {posts.map(post => (
           <li key={post.id}>
-            <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-dark text-decoration-none border-top" href="#">
-              <img src={post.imageSrc} width="auto" height="120px" />
+            <a className="d-flex flex-row gap-3 align-items-center py-3 link-dark text-decoration-none border-top" href="#">
+              <img src={`${process.env.REACT_APP_BASE_URL}/${post.imageSrc}`} width="90px" height="auto" style={{ flexShrink: 0 }} />
               <div className="col-lg-8">
                 <h6 className="mb-0">{post.title}</h6>
                 <small className="text-muted">{post.date}</small><br />

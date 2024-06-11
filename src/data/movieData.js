@@ -3,6 +3,9 @@ export const featuredMovies = [
   {
     id: 1,
     title: '寄生虫',
+    rating: "8.8",
+    type: "剧情",
+    director: "奉俊昊",
     cast: '宋康昊/李善均/曹汝贞/崔宇植/朴素',
     date: '2019',
     description: '影片讲述基宇一家从贫困生活中借助基宇成为富家家教的机会潜入并融入富裕家庭，逐步揭开了双方家庭之间的秘密和社会阶层的冲突。',
@@ -11,6 +14,9 @@ export const featuredMovies = [
   {
     id: 2,
     title: '了不起的盖茨比',
+    rating: "8.0",
+    type: "剧情 / 爱情",
+    director: "巴兹·鲁赫曼",
     cast: ' 莱昂纳多·迪卡普里奥/凯瑞·穆里根/托比',
     date: '2013',
     description: '作家尼克追寻美国梦来到纽约，成为神秘富豪盖茨比的邻居，并卷入其复杂的爱情与社交世界。尼克见证了盖茨比对黛西不渝的爱情及其悲剧结局，最终厌倦了大都市的虚假与冷漠，决定回到故乡。',
@@ -36,7 +42,7 @@ export const loveMovies = [
   {id:142,title:"老无所依 No Country for Old Men",director:"伊桑·科恩 / 乔尔·科恩",cast:"汤米·李·琼斯 / 哈维尔·巴登 / 乔什·布洛林",type:"犯罪 / 剧情 / 惊悚",year:"2007",rating:"8.3",imageSrc:"images/movies/142.webp",description:"在德克萨斯州乡村，老牛仔Moss猎杀羚羊时意外发现尸体、海洛因和200万现金，他决定拿走现金改变生活，却引来冷血杀手Chigurh的追杀。同时，当地治安官Bell在调查这些杀人事件，努力而无力地保护Moss，深感时代变迁的无奈与悲哀。"},
   {id:64,title:"请以你的名字呼唤我",director:"卢卡·瓜达尼诺",cast:"艾米·汉莫 / 提莫西·查拉梅 / 迈克尔·斯图巴",type:"剧情 / 爱情 / 同性",year:"2017",rating:"8.8",imageSrc:"images/movies/64.webp",description:"故事设定在八十年代的意大利里维埃拉，十七岁的艾力奥每年夏天与家人度假，今年遇到了来自美国的奥利弗，两人之间逐渐产生了强烈的吸引力。尽管性别和年龄的差异使他们犹豫，但最终艾力奥和奥利弗的激情超越了障碍，开启了一段美丽却注定无果的恋情。"},
   {id:52,title:"一个明星的诞生 A Star Is Born",director:"布莱德利·库珀",cast:"/ 布莱德利·库珀 / 山姆·艾里奥特",type:"剧情 / 爱情 / 音乐",year:"2018",rating:"7.4",imageSrc:"images/movies/52.webp",description:"小有名气的乡村歌手杰克，尽管酗酒问题影响了他的事业，但在一家酒吧里遇到了拥有惊人天赋的驻唱歌手艾利。艾利虽对音乐充满热情和梦想，但现实的挫败让她失去了前进的动力。杰克被艾利的才华和孤独所吸引，决定帮助她重拾信心，两人在音乐和感情上逐渐走近。"},
-  {id:8,title:"过往人生 Past Lives",director:"席琳·宋",cast:"格蕾塔·李 / 刘台午 / 约翰·马加罗",type:"剧情 / 爱情",year:"2023",rating:"7.6",imageSrc:"images/movies/52.webp",description:"Nora（Greta Lee 饰）自小便因家庭因素搬离首尔移居加拿大。她与青梅竹马 Hae Sung（刘台午 饰）的关系最终停留在稚幼的凝视不语。而在二十年后，命运令两人于纽约重逢。可此时 Nora已拥有新的身份，甚至已和Arthur（John Magaro 饰）建立家庭。和Hae Sung 分开二十年后的重逢，也令她重新思索生活中的真正渴望。"},
+  {id:8,title:"过往人生 Past Lives",director:"席琳·宋",cast:"格蕾塔·李 / 刘台午 / 约翰·马加罗",type:"剧情 / 爱情",year:"2023",rating:"7.6",imageSrc:"images/movies/8.webp",description:"Nora（Greta Lee 饰）自小便因家庭因素搬离首尔移居加拿大。她与青梅竹马 Hae Sung（刘台午 饰）的关系最终停留在稚幼的凝视不语。而在二十年后，命运令两人于纽约重逢。可此时 Nora已拥有新的身份，甚至已和Arthur（John Magaro 饰）建立家庭。和Hae Sung 分开二十年后的重逢，也令她重新思索生活中的真正渴望。"},
 ]
 
 export const inspiringMovies = [

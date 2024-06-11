@@ -1,0 +1,38 @@
+
+.m-text-block {
+  padding: 1.0rem 1.5rem !important;
+}
+
+.m-watch-link{
+  color: #007bff; /* Bootstrap的默认链接颜色，或者你选择的任何颜色 */
+  text-decoration: none; /* 确保没有下划线 */
+}
+
+/* 小屏幕设备的媒体查询 */
+@media (max-width: 576px) {
+  .custom-image-container img {
+    height: 150px; /* 在小屏幕上缩小图片高度 */
+    width: auto;  /* 保持宽度比例 */
+  }
+  .m-text-block{
+    padding: .2rem 1rem !important;
+  }
+  .m-cast-text{
+    font-size: 0.8rem;
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+    margin-bottom: auto !important;
+  }
+  .m-title-text{
+    font-size: 1.3rem;
+    margin: .2rem 0rem!important;
+  }
+  .m-type-text{
+    margin-bottom: 0rem !important;
+    font-size: .9rem;
+  }
+  .m-watch-link{
+    font-size: .9rem;
+    margin: .2rem 0rem!important;
+  }
+}
