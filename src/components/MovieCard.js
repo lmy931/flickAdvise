@@ -1,7 +1,13 @@
 import React from 'react';
 import '../styles/MovieCard.css';
 
-function MovieCard({ title, cast, type, description, imageSrc, featured = true }) {
+function MovieCard({ title, cast, type, description, imageSrc, featured = true, externalUrl }) {
+  const handleWatchOnline = (e) => {
+    e.preventDefault(); // 防止默认的链接行为
+    const confirmationUrl = `/confirm-external-link/${encodeURIComponent(externalUrl)}`;
+    window.open(confirmationUrl, '_blank'); // 在新标签中打开
+  };
+
   const cardClass = featured ? "col-md-6" : "";
   return (
     <div className={cardClass}>
@@ -14,7 +20,7 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true }
           <h3 className="mb-0 m-title-text">{title}</h3>
           <div className="mb-1 m-cast-text">{cast}</div>
           <p className="card-text mb-auto text-body-secondary">{description}</p>
-          <a href="#" className="m-watch-link">
+          <a href="#" onClick={handleWatchOnline} className="m-watch-link">
             在线观看
           </a>
         </div>

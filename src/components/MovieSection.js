@@ -17,6 +17,7 @@ function Section({ title, posts, featured }) {
             description={post.description}
             imageSrc={post.imageSrc}
             featured={featured}
+            externalUrl="https://example.com"
           />
         ))}
       </div>
