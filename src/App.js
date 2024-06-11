@@ -9,7 +9,7 @@ import ExternalLinkConfirmation from './components/ExternalLinkConfirmation';
 
 function App() {
   return (
-    <Router basename="/flickAdvise">
+    <Router>
       <div className="container">
         <Header />
         <Navigation />
