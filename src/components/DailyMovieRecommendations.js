@@ -29,7 +29,7 @@ function DailyMovieRecommendations() {
             <HallOfFame />
             <div className="p-4 mb-3 bg-light rounded">
               <p className="mb-0">我们的社区还在建设中</p>
-              <p className="mb-0">更多内容 comming soon...</p>
+              <p className="mb-0">更多内容 comming soon!</p>
             </div>
           </div>
         </div>
