@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f2855e4.css",
-    "main.js": "/static/js/main.54d82858.js",
-    "static/js/453.2839896e.chunk.js": "/static/js/453.2839896e.chunk.js",
-    "index.html": "/index.html",
-    "main.4f2855e4.css.map": "/static/css/main.4f2855e4.css.map",
-    "main.54d82858.js.map": "/static/js/main.54d82858.js.map",
-    "453.2839896e.chunk.js.map": "/static/js/453.2839896e.chunk.js.map"
+    "main.css": "https://www.flickadvise.com/static/css/main.4f2855e4.css",
+    "main.js": "https://www.flickadvise.com/static/js/main.360b0f8f.js",
+    "static/js/453.2839896e.chunk.js": "https://www.flickadvise.com/static/js/453.2839896e.chunk.js",
+    "index.html": "https://www.flickadvise.com/index.html",
+    "main.4f2855e4.css.map": "https://www.flickadvise.com/static/css/main.4f2855e4.css.map",
+    "main.360b0f8f.js.map": "https://www.flickadvise.com/static/js/main.360b0f8f.js.map",
+    "453.2839896e.chunk.js.map": "https://www.flickadvise.com/static/js/453.2839896e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f2855e4.css",
-    "static/js/main.54d82858.js"
+    "static/js/main.360b0f8f.js"
   ]
 }
