@@ -1,20 +1,19 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
     <div className="nav-scroller py-1 mb-3 border-bottom">
       <nav className="nav nav-underline justify-content-between">
-        <Link to="/" className="nav-item nav-link link-body-emphasis active">今日推荐</Link>
-        <Link to="/awards" className="nav-item nav-link link-body-emphasis">获奖电影</Link>
-        <Link to="/adaptations" className="nav-item nav-link link-body-emphasis">真实改编</Link>
-        <Link to="/books" className="nav-item nav-link link-body-emphasis">书单推荐</Link>
-        <Link to="/short-films" className="nav-item nav-link link-body-emphasis">获奖短片</Link>
-        <Link to="/escape-trip" className="nav-item nav-link link-body-emphasis">Escape Trip!</Link>
-        <Link to="/submit" className="nav-item nav-link link-body-emphasis">欢迎投稿</Link>
+        <NavLink to="/" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"} end>今日推荐</NavLink>
+        <NavLink to="/awards" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>获奖电影</NavLink>
+        <NavLink to="/adaptations" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>真实改编</NavLink>
+        <NavLink to="/books" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>书单推荐</NavLink>
+        <NavLink to="/short-films" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>获奖短片</NavLink>
+        <NavLink to="/escape-trip" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>Escape Trip!</NavLink>
+        <NavLink to="/submit" className={({ isActive }) => isActive ? "nav-item nav-link link-body-emphasis active" : "nav-item nav-link link-body-emphasis"}>欢迎投稿</NavLink>
       </nav>
     </div>
   );
 }
-
 
 export default Navigation;
