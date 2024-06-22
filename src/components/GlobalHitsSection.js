@@ -8,7 +8,7 @@ function GlobalHitsSection({ posts }) {
         {posts.map(post => (
           <li key={post.id}>
             <a className="d-flex flex-row gap-3 align-items-center py-3 link-dark text-decoration-none border-top" href="#">
-              <img src={`${process.env.REACT_APP_BASE_URL}/${post.imageSrc}`} width="90px" height="auto" style={{ flexShrink: 0 }} />
+              <img src={post.imageSrc} width="90px" height="auto" style={{ flexShrink: 0 }} />
               <div className="col-lg-8">
                 <h6 className="mb-0">{post.title}</h6>
                 <small className="text-muted">{post.date}</small><br />
