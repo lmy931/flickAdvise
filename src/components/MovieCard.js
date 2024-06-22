@@ -13,7 +13,7 @@ function MovieCard({ title, cast, type, description, imageSrc, featured = true, 
     <div className={cardClass}>
       <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col-auto custom-image-container">
-          <img className="bd-placeholder-img" width="auto" height="250" src={`${process.env.REACT_APP_BASE_URL}/${imageSrc}`} alt={title} />
+          <img className="bd-placeholder-img" width="auto" height="250" src={imageSrc} alt={title} />
         </div>
         <div className="col p-4 d-flex flex-column position-static m-text-block">
           <strong className="d-inline-block mb-2 text-primary-emphasis m-type-text">{type}</strong>
