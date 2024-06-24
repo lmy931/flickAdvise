@@ -6,8 +6,12 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import ComingSoon from './components/ComingSoon';
 import ExternalLinkConfirmation from './components/ExternalLinkConfirmation';
+import ReactGA from 'react-ga4';
 
 function App() {
+  ReactGA.initialize('G-33P2X51ZXS');  // 使用你的 Google Analytics 4 测量 ID
+  ReactGA.send('pageview');  // 发送页面查看信息
+
   return (
     <Router>
       <div className="container">
