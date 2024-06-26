@@ -12,8 +12,8 @@ const ExternalLinkConfirmation = () => {
   return (
     <div className="container mt-5">
       <div className="jumbotron">
-        <h1 className="display-4">即将离开本站</h1>
-        <p className="lead">您即将离开本站前往外部链接。请确认是否继续？</p>
+        <h1 className="display-4">即将离开FlickAdvise</h1>
+        <p className="lead">您即将离开FlickAdvise，请注意您的账号和财产安全。</p>
         <hr className="my-4" />
         <p className="lead">
           <button className="btn btn-primary btn-lg" onClick={handleProceed} role="button">继续</button>
