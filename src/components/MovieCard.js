@@ -1,11 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/MovieCard.css';
 
 function MovieCard({ title, cast, type, description, imageSrc, featured = true, externalUrl }) {
+  const navigate = useNavigate();
+
   const handleWatchOnline = (e) => {
     e.preventDefault(); // 防止默认的链接行为
     const confirmationUrl = `/confirm-external-link/${encodeURIComponent(externalUrl)}`;
-    window.open(confirmationUrl, '_blank'); // 在新标签中打开
+    navigate(confirmationUrl, { replace: true });
   };
 
   const cardClass = featured ? "col-md-6" : "";
