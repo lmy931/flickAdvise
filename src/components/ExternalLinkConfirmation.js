@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import '../styles/ExternalLinkConfirmation.css'; // 确保你有这个CSS文件来包含样式
 
 const ExternalLinkConfirmation = () => {
   const { url } = useParams();
@@ -10,14 +11,19 @@ const ExternalLinkConfirmation = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <div className="jumbotron">
-        <h1 className="display-4">即将离开FlickAdvise</h1>
-        <p className="lead">您即将离开FlickAdvise，请注意您的账号和财产安全。</p>
-        <hr className="my-4" />
-        <p className="lead">
-          <button className="btn btn-primary btn-lg" onClick={handleProceed} role="button">继续</button>
-        </p>
+    <div className="wrapper">
+      {/* <div className="logo">
+        <a href="https://www.flickadvise.com">
+          <img src="/path/to/your/logo.png" alt="FlickAdvise" />
+        </a>
+      </div> */}
+      <div className="content">
+        <h1>即将离开 FlickAdvise</h1>
+        <p className="info">您即将离开 FlickAdvise，请注意您的账号和财产安全。</p>
+        <p className="link">{decodedUrl}</p>
+      </div>
+      <div className="actions">
+        <button className="button" onClick={handleProceed}>继续访问</button>
       </div>
     </div>
   );
